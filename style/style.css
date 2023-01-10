@@ -149,6 +149,11 @@ header .col-lg-7 {
 .button-video--text {
     float: left;
     margin-left: 16px;
+    margin-top: 2px;
+}
+
+.play {
+    cursor: pointer;
 }
 
 .container-fluid {
