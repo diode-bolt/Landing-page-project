@@ -185,13 +185,13 @@ details>summary{
     cursor: pointer;
 }
 summary::before{
-    content: url(/img/details.png);
+    content: url(img/details.png);
     transition: transform ease-in-out 0.05s;
     float: left;
     margin: 3px 6px 0 0;
 }
 details[open] summary:before {
-    content: url(/img/details.png);
+    content: url(img/details.png);
     transform: rotate(90deg);
 }
 .ul-pic{
@@ -205,7 +205,7 @@ details[open] summary:before {
     margin-top: 13px;
 }
 .ul-pic li::before{
-    content: url(/img/ul1.png);
+    content: url(img/ul1.png);
     margin: 2px 12px 0 0;
     float: left;
 }
@@ -268,7 +268,7 @@ details[open] summary:before {
     width: fit-content;
 }
 .section_always_for_free_ul li::before{
-    content: url(/img/ul2.png);
+    content: url(img/ul2.png);
     margin-right: 12px;
     float: left;
 }
@@ -319,10 +319,10 @@ line-height: 48px;
 margin-top: 29px;
 }
 .increase{
-    background-image: url(/img/increase.png);
+    background-image: url(img/increase.png);
 }
 .decrease{
-    background-image: url(/img/decrease.png);
+    background-image: url(img/decrease.png);
 }
 .membership{
     display: inline-block;
