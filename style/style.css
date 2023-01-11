@@ -247,7 +247,7 @@ details[open] summary:before {
     margin-top: 13px
 }
 
-.features-list--set-up::before {
+.features-list--set-up li::before {
     content: url(../img/ul1.png);
     margin: 2px 12px 0 0;
     float: left
