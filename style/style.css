@@ -1,211 +1,213 @@
 body {
-    font-family: 'Poppins', sans-serif;
+    font-family: "Poppins",sans-serif;
     font-weight: 400;
     font-size: 16px;
-    line-height: 24px;
+    line-height: 24px
 }
 
 h1,h2,h3,h4,h5,h6 {
-    font-family: 'Libre Baskerville', serif;
+    font-family: "Libre Baskerville",serif;
     font-weight: 700;
     font-size: 32px;
     color: #162637;
-    text-align: center;
+    text-align: center
 }
 
 a:hover {
-    text-decoration: underline;
+    text-decoration: underline
 }
 
 h2 {
     line-height: 146%;
     margin-top: 118px;
-    margin-bottom: 72px;
+    margin-bottom: 72px
 }
 
-li {
-    list-style-type: none;
+details>summary,li {
+    list-style-type: none
 }
 
 a {
     text-decoration: none;
     color: #162637;
-    display: inline-block;
+    display: inline-block
 }
 
 img {
-    max-width: 100%;
+    max-width: 100%
 }
 
 .navigation {
     position: sticky;
-    top: 0px;
+    top: 0;
     padding-top: 31px;
     padding-bottom: 23px;
-    background-color: #fff;
+    background-color: #fff
 }
 
 .dropdown-menu img {
     cursor: pointer;
     width: 28px;
     height: 28px;
-    object-fit: fill;
+    object-fit: fill
 }
 
 .button {
-font-family: 'Poppins', sans-serif;
-font-weight: 600;
-font-size: 16px;
-line-height: 24px;
-border-radius: 8px;
-padding: 16.2px;
-text-align: center;
+    font-family: "Poppins",sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    border-radius: 8px;
+    padding: 16.2px;
+    text-align: center
 }
 
 .button--pink {
-    background-color: #F20D9D;
-    color: #fff;
+    background-color: #f20d9d;
+    color: #fff
 }
 
 .button--blue {
-    background-color: #5284ED;
-    color: #fff;
+    background-color: #5284ed;
+    color: #fff
 }
 
 .button--blue img {
-float: left;
-margin-right: 12px;
+    float: left;
+    margin-right: 12px
 }
 
 .button--green {
-    background-color: #40ECC3;
-    color: #fff;
+    background-color: #40ecc3;
+    color: #fff
 }
 
 .navigation .col-lg-3 a {
     display: block;
-text-align: center;
+    text-align: center
 }
 
 .smallmenu {
     float: right;
-    display: none;
+    display: none
 }
 
 .navigation-list li {
     display: inline-block;
-    margin: 0 21.17px;
+    margin: 0 21.17px
 }
 
 .navigation-list {
     margin: 1px 0;
-    padding-left: 60px;
+    padding-left: 60px
 }
 
 .country {
-    float:right;
-    margin-top: -4px;
+    float: right;
+    margin-top: -4px
 }
 
 header {
-    margin-top: 47px;
+    margin-top: 47px
 }
 
 header .col-lg-7 {
-    padding-top: 13px;
+    padding-top: 13px
 }
 
 .underline-green {
     background-image: url("data:image/svg+xml,%3Csvg fill='none' xmlns='http://www.w3.org/2000/svg' preserveAspectRatio='none' viewBox='0 0 352 9'%3E%3Crect width='352' height='9' rx='4.5' fill='%2316ECB9'/%3E%3C/svg%3E");
     background-repeat: no-repeat;
     background-position: left bottom .15em;
-    background-size: 100% .3em;
+    background-size: 100% .3em
 }
 
 .header__title {
     font-size: 42px;
     line-height: 61px;
     margin-bottom: 0;
-    text-align: left;
+    text-align: left
 }
 
 .header__subtitle {
     font-size: 18px;
     margin: 14px 0 27.5px;
-    line-height: 27px;
+    line-height: 27px
 }
 
 .maxwidth {
-    max-width: 100%;
+    max-width: 100%
 }
 
 .buttons-sign-up .button-blue {
-    margin-right: 26px;
+    margin-right: 26px
 }
+
 .buttons-sign-up {
-    margin-bottom: 46px;
+    margin-bottom: 46px
 }
 
 .button-video--text {
     float: left;
     margin-left: 16px;
-    margin-top: 1.5px;
+    margin-top: 1.5px
 }
 
 .play {
-    cursor: pointer;
+    cursor: pointer
 }
 
 .container-fluid {
-    background: linear-gradient(90deg, rgba(247,103,193,1) 50%, rgba(22,236,185,1) 50%);
-    color: #fff;
+    background: linear-gradient(90deg,#f767c1 50%,#16ecb9 50%);
+    color: #fff
 }
 
 .feature-item {
-    margin-bottom: 118px;
+    margin-bottom: 118px
 }
 
 .feature__title {
     line-height: 39.68px;
     margin-top: 0;
     margin-bottom: 42px;
-    color: #fff;
+    color: #fff
 }
 
 .feature__subtitle {
-    font-family: 'Poppins', sans-serif;
-font-size: 18px;
-line-height: 27px;
-margin-bottom: 21px;
-color: #fff;
+    font-family: "Poppins",sans-serif;
+    font-size: 18px;
+    line-height: 27px;
+    margin-bottom: 21px;
+    color: #fff
 }
 
 .feature__img {
     height: 320px;
-    max-width: 100%;
+    max-width: 100%
 }
 
-.feature__img img{
+.feature__img img {
     display: block;
-    margin: 0 auto;
+    margin: 0 auto
 }
+
 .feature__description {
-    font-family: 'Poppins', sans-serif;
+    font-family: "Poppins",sans-serif;
     font-weight: 400;
     font-size: 16px;
     line-height: 24px;
     text-align: center;
     margin-top: 42px;
-    margin-bottom: 50px;
-
+    margin-bottom: 50px
 }
 
-.features .col-lg-6, .features .col-xl-4 {
-    padding-top: 121px;
+.features .col-lg-6,.features .col-xl-4 {
+    padding-top: 121px
 }
+
 .optimization-option {
-    background: #FFFFFF;
-    border: 1px solid #03363D;
+    background: #fff;
+    border: 1px solid #03363d;
     border-radius: 8px;
     display: block;
     padding: 13.5px 15px;
@@ -213,29 +215,28 @@ color: #fff;
     font-weight: 600;
     font-size: 18px;
     line-height: 27px;
-    color: #03363D;
+    color: #03363d
 }
 
 details>summary {
-    list-style-type: none;
-    cursor: pointer;
+    cursor: pointer
 }
 
 summary::before {
-    content: url(/example/img/details.png);
-    transition: transform ease-in-out 0.05s;
+    content: url(../img/details.png);
+    transition: transform ease-in-out .05s;
     float: left;
-    margin: 3px 6px 0 0;
+    margin: 3px 6px 0 0
 }
 
 details[open] summary:before {
-    content: url(/example/img/details.png);
-    transform: rotate(90deg);
+    content: url(../img/details.png);
+    transform: rotate(90deg)
 }
 
 .optimization-option-descriptions {
-    font-size: 0.6em;
-    font-style: normal;
+    font-size: .6em;
+    font-style: normal
 }
 
 .features-list--set-up {
@@ -243,51 +244,51 @@ details[open] summary:before {
     font-size: 18px;
     line-height: 27px;
     padding-left: 10px;
-    margin-top: 13px;
+    margin-top: 13px
 }
 
 .features-list--set-up::before {
-    content: url(/example/img/ul1.png);
+    content: url(../img/ul1.png);
     margin: 2px 12px 0 0;
-    float: left;
+    float: left
 }
 
 .features-list--set-up li {
-    margin-bottom: 40.5px;
+    margin-bottom: 40.5px
 }
 
 .pic {
-   display: block;
-   margin: 0 auto;
+    display: block;
+    margin: 0 auto
 }
 
 .with-zolmi__title img {
-    margin: 0 10.5px;
+    margin: 0 10.5px
 }
 
 .peoples-opinion__name {
     font-weight: 700;
     font-size: 18px;
     line-height: 22px;
-    letter-spacing: 0.1em;
-    margin-bottom: 12px;
+    letter-spacing: .1em;
+    margin-bottom: 12px
 }
 
 .peoples-opinion__feedback {
     font-weight: 400;
     font-size: 16px;
     line-height: 24px;
-    letter-spacing: 0.1em;
-    margin-bottom: 0;
+    letter-spacing: .1em;
+    margin-bottom: 0
 }
 
 .features-list__title {
     font-weight: 600;
     font-size: 18px;
     line-height: 27px;
-    font-family: 'Poppins', sans-serif;
+    font-family: "Poppins",sans-serif;
     margin-bottom: 25px;
-    margin-top: 0;
+    margin-top: 0
 }
 
 .features-list--for-free {
@@ -297,12 +298,13 @@ details[open] summary:before {
     font-weight: 400;
     font-size: 16px;
     line-height: 24px;
-    padding-left: 57px;
+    padding-left: 57px
 }
 
-.features-list--for-free li {
+.card__featuers-list li,.features-list--for-free li {
     margin-bottom: 18px;
 }
+
 .for-free__picture {
     margin-top: 35px;
 }
@@ -318,147 +320,146 @@ details[open] summary:before {
 }
 
 .features-list--for-free li::before {
-    content: url(/example/img/ul2.png);
+    content: url(../img/ul2.png);
     margin-right: 12px;
-    float: left;
+    float: left
 }
 
 .asses__title {
-    margin-bottom: 42px;
+    margin-bottom: 42px
 }
 
 .greencolor {
-    color: #40ECC3;
+    color: #40ecc3
+}
+
+.card,.col p {
+    text-align: center
 }
 
 .card {
-    text-align: center;
-    border: 1px solid #03363D;
+    border: 1px solid #03363d;
     border-radius: 8px;
-    padding-bottom: 42px;
+    padding-bottom: 42px
 }
 
 .total {
-    margin-top: 51px;
+    margin-top: 51px
 }
 
 .totalcost {
-    display: inline-block;
+    display: inline-block
 }
 
 .cardbutton {
     border: 1px solid #162637;
     margin-top: 39px;
-    padding: 15px;
+    padding: 15px
 }
 
 .cardbutton1 {
-    margin-top: 42px;
+    margin-top: 42px
 }
 
 .col p {
-    text-align: center;
-    margin-bottom: 72px;
+    margin-bottom: 72px
 }
 
 .cardcol-1 {
     padding: 0;
-    margin-right: 70px;
+    margin-right: 70px
 }
 
 .cardcol-2 {
-    padding: 0;
+    padding: 0
 }
 
 .card__title {
     font-size: 18px;
-    line-height: 22px;
+    line-height: 22px
 }
 
 .card__subtitle {
-font-size: 32px;
-line-height: 48px;
-margin-top: 29px;
+    font-size: 32px;
+    line-height: 48px;
+    margin-top: 29px
 }
 
 .increase {
-    background-image: url(/example/img/increase.png);
+    background-image: url(../img/increase.png)
 }
 
 .decrease {
-    background-image: url(/example/img/decrease.png);
+    background-image: url(../img/decrease.png)
 }
+
 .membership {
     display: inline-block;
     width: 22px;
     height: 22px;
     margin-top: 5px;
-    cursor: pointer;
+    cursor: pointer
 }
 
 .card__total {
-    margin: 0 54px;
+    margin: 0 54px
 }
 
 .card__bonus {
     font-weight: 600;
     font-size: 18px;
     line-height: 27px;
-    margin: 24px 0;
+    margin: 24px 0
 }
 
 .card__featuers-list {
-    padding: 0;
-}
-
-.card__featuers-list li {
-    margin-bottom: 18px;
+    padding: 0
 }
 
 .text-pink {
     font-weight: 600;
     font-size: 32px;
     line-height: 48px;
-    color: #F20D9D;
+    color: #f20d9d
 }
 
 .costcard {
-    font-family: 'Poppins', sans-serif;
+    font-family: "Poppins",sans-serif;
     font-weight: 700;
     font-size: 18px;
     line-height: 27px;
-    margin-top: 42px;
+    margin-top: 42px
 }
 
 .features-list--we-are-6 li {
-margin-bottom: 24px;
+    margin-bottom: 24px
 }
 
 .logoaws {
-    margin:0 0 -12px 50px;
+    margin: 0 0-12px 50px
 }
 
 .features-list--we-are-6 {
     margin-bottom: 48px;
-    padding: 0;
+    padding: 0
 }
 
 .col-padding {
-    padding-left: 112px;
+    padding-left: 112px
 }
 
 .faq__title {
-    margin-bottom: 42px;
+    margin-bottom: 42px
 }
 
 .faq__question {
-    font-family: 'Poppins', sans-serif;
+    font-family: "Poppins",sans-serif;
     font-weight: 600;
     font-size: 16px;
     line-height: 24px;
     margin-top: 0;
     margin-bottom: 14px;
-    text-align: left;
+    text-align: left
 }
 
 .faq__answer {
@@ -468,14 +469,15 @@ margin-bottom: 24px;
     overflow: hidden;
     display: -webkit-box;
     -webkit-box-orient: vertical;
-    -webkit-line-clamp: 5;
+    -webkit-line-clamp: 5
 }
+
 .message__title {
-    margin-bottom: 42px;
+    margin-bottom: 42px
 }
 
 .col .message__subtitle {
-    margin-bottom: 48px;
+    margin-bottom: 48px
 }
 
 .features-list--message {
@@ -484,34 +486,34 @@ margin-bottom: 24px;
     font-weight: 400;
     font-size: 18px;
     line-height: 27px;
-    margin-bottom: 58px;
+    margin-bottom: 58px
 }
 
 .features-list--message li {
     display: inline-block;
-    margin: 0 12px;
+    margin: 0 12px
 }
 
 .message__button {
-    margin-bottom: 118px;
+    margin-bottom: 118px
 }
 
 footer {
-    padding-top: 48px;
+    padding-top: 48px
 }
 
 .footer__title {
-    font-family: 'Poppins', sans-serif;
+    font-family: "Poppins",sans-serif;
     font-weight: 600;
     font-size: 16px;
     line-height: 24px;
     margin-top: 0;
     margin-bottom: 18px;
-    text-align: left;
+    text-align: left
 }
 
 .features-list--footer li {
-    margin-bottom: 12px;
+    margin-bottom: 12px
 }
 
 .features-list--footer {
@@ -519,228 +521,208 @@ footer {
     font-weight: 300;
     font-size: 16px;
     line-height: 24px;
-    margin-bottom: 66px;
+    margin-bottom: 66px
 }
 
 .col-pad-35px {
-    padding-left: 35px;
+    padding-left: 35px
 }
 
 .pad-9px {
-    padding-left: 9px;
+    padding-left: 9px
 }
 
-/* Responsive styles Start */
-@media (max-width: 1400px) {
+@media (max-width:1400px) {
     .navigation-list {
-        padding-left: 22px;
+        padding-left: 22px
     }
 }
 
-@media (max-width: 1200px) {
+@media (max-width:1200px) {
     .navigation-list {
-        padding-left: 32px;
+        padding-left: 32px
     }
 
     .navigation-list li {
-        margin: 0 12px;
+        margin: 0 12px
     }
 
     .navigation-list li:nth-of-type(5) {
-        margin-right: 0;
+        margin-right: 0
     }
 
     .feature__title br {
-        display: none;
+        display: none
     }
 
     .feature__title {
         height: 80px;
-        margin-bottom: 25px;
+        margin-bottom: 25px
     }
 
     .feature__subtitle {
         height: 55px;
-        margin-bottom: 25px;
+        margin-bottom: 25px
     }
 
-    .features-list--for-free{
-        padding-left: 11%;
+    .features-list--for-free {
+        padding-left: 11%
     }
 }
 
-@media (max-width: 992px) {
+@media (max-width:992px) {
     .navigation-list {
-        padding-left: 11px;
+        padding-left: 11px
     }
 
     .navigation-list li {
-        margin: 0 5px;
+        margin: 0 5px
     }
 
     .navigation-list li:nth-of-type(1) {
-        margin-left: 0;
-    }
-
-    br {
-        display: none;
+        margin-left: 0
     }
 
     .button {
-        padding: 10px;
+        padding: 10px
     }
 
     .buttons-sign-up .button-blue {
-        margin: 0 0 10px;
+        margin: 0 0 10px
     }
 
-    .country {
-        display: none;
+    .country,br {
+        display: none
     }
 
-    .text-centered {
-        text-align: center;
-    }
-
-    .h1 {
-        text-align: center;
+    .h1,.text-centered {
+        text-align: center
     }
 
     .button-video {
         display: block;
         width: fit-content;
-        margin: 0 auto;
+        margin: 0 auto
     }
 
     .play {
-        margin-left: 12px;
+        margin-left: 12px
     }
 
     .container-fluid {
-        background: none;
+        background: 0 0
     }
 
     .background-red {
-        background-color: #F767C1;
+        background-color: #f767c1
     }
 
     .background-green {
-        background-color: #16ECB9;
+        background-color: #16ecb9
     }
 
     .cardcol-1 {
-        margin: 0 0 40px;
+        margin: 0 0 40px
     }
 
     .card {
         width: 409px;
-        margin: 0 auto;
+        margin: 0 auto
     }
 
     .col-padding {
-        padding: 0;
+        padding: 0
     }
 
     .section-set-up-ul {
-        margin-top: 40px;
+        margin-top: 40px
     }
 
     .features-list--for-free {
         padding-left: 0;
-        columns: 2;
+        columns: 2
     }
 
-    ul {
+    .logos,ul {
         width: fit-content;
-        margin: 40px auto;
+        margin: 40px auto
     }
 
     .logos {
-        width: fit-content;
-        margin: 0 auto;
+        margin: 0 auto
     }
 
     .features-list--we-are-6 {
-        margin-top: 40px;
+        margin-top: 40px
     }
 
     .peoples-opinion {
-        margin-bottom: 40px;
+        margin-bottom: 40px
     }
 
     .col-pad-35px {
-        padding: 0 12px;
+        padding: 0 12px
     }
 
     .features-list--footer {
-        margin: 0;
+        margin: 0
     }
 
     .footer__title {
-        margin-top: 15px;
+        margin-top: 15px
     }
 }
 
-@media (max-width: 768px) {
-    .g-0, .displaynone {
-        display: none;
+@media (max-width:768px) {
+    .displaynone,.g-0 {
+        display: none
     }
 
     .smallmenu {
-        display: unset;
+        display: unset
     }
 
     .smallmenu .button {
-        margin-right: 10px;
+        margin-right: 10px
     }
-
 }
-@media (max-width: 576px) {
+
+@media (max-width:576px) {
     .card {
-        width: fit-content;
+        width: fit-content
     }
 
     .h1 {
         font-size: 31px;
-        line-height: 38px;
+        line-height: 38px
     }
 
     h2 {
         margin-top: 80px;
-        margin-bottom: 50px;
+        margin-bottom: 50px
     }
 
-    h2, h3 {
-        font-size: 25px;
+    h2,h3 {
+        font-size: 25px
     }
 
     .feature__title {
         height: 60px;
         margin-bottom: 20px;
-        line-height: 27px;
+        line-height: 27px
     }
 
     .feature__subtitle {
         height: 45px;
         margin-bottom: 20px;
-        font-size: 16px;
+        font-size: 16px
     }
 
     .feature__description {
-        margin-top: 25px;
+        margin-top: 25px
     }
 
-    .navigation-list {
-        display: none;
+    .floatcol,.navigation-list {
+        display: none
     }
-
-    .floatcol {
-        display: none;
-    }
-
 }
-
-
-
-
-/* Responsive styles End */
